@@ -1,5 +1,4 @@
-This repository contains the companion material for the following publication:
-> Tnani, Mohamed-Ali; Feil, Michael; Diepold, Klaus. Smart Data Collection System for Brownfield CNC Milling Machines: A New Benchmark Dataset for Data-Driven Machine Monitoring. Procedia CIRP2022,107, 131–136.
+
 
 # CNC Machining Data 
 
@@ -41,9 +40,13 @@ The code provided for loading the data has been written in Python 3.8. You need 
 ### Notebooks
 
 Data_explorer: EDA, preprocessing and transformation for 5 number summary, other statistics and tsfresh.
+
 pca: PCA for 5 number summary processed data.
+
 model_five_summary: Built different classification models for 5 number summary dataset.
+
 model_other_stats: Built different classification models for other stats dataset. 
+
 model_tsfresh: Built different classification models for tsfresh dataset. 
 
 ## License
